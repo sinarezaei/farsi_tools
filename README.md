@@ -50,7 +50,7 @@ from farsi_tools import standardize_persian_text
 standardize_persian_text('سلام خوبي؟ کمك ﻧميخواي؟') # returns "سلام خوبی؟ کمک نمیخوای؟"
 ```
 
-### Get persian stop-words
+### Get Farsi (Persian) stop-words
 Use `stopwords` method to retrieve list of persian stop-words
 ```python
 from farsi_tools import stop_words
@@ -59,5 +59,5 @@ stop_words()
 ```
 
 
-[pypi_version]: https://img.shields.io/pypi/v/pykson.svg "PYPI version"
+[pypi_version]: https://img.shields.io/pypi/v/farsi_tools.svg "PYPI version"
 [licence_version]: https://img.shields.io/badge/license-MIT%20v2-brightgreen.svg "MIT Licence"
